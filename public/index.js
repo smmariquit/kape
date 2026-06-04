@@ -67,7 +67,7 @@ function setupDonate() {
 
     function updateBtnText(amount) {
         selectedAmount = amount;
-        btnText.textContent = `Pa-kape — ₱${amount.toLocaleString()}`;
+        btnText.textContent = `pa-kape! - ₱${amount.toLocaleString()}`;
     }
 
     amounts.addEventListener('click', (e) => {
