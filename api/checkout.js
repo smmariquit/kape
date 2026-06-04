@@ -24,11 +24,11 @@ export default async function handler(req, res) {
     try {
         const { amount, message } = req.body;
 
-        // Validate amount (minimum ₱20, maximum ₱50,000)
+        // Validate amount (minimum ₱10, maximum ₱50,000)
         const pesoAmount = parseInt(amount);
-        if (!pesoAmount || pesoAmount < 20 || pesoAmount > 50000) {
+        if (!pesoAmount || pesoAmount < 10 || pesoAmount > 50000) {
             return res.status(400).json({
-                error: 'Amount must be between ₱20 and ₱50,000'
+                error: 'Amount must be between ₱10 and ₱50,000'
             });
         }
 
