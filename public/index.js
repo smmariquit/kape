@@ -63,7 +63,7 @@ function setupDonate() {
 
     if (!amounts) return;
 
-    let selectedAmount = 250;
+    let selectedAmount = 100;
 
     function updateBtnText(amount) {
         selectedAmount = amount;
@@ -87,9 +87,9 @@ function setupDonate() {
             updateBtnText(val);
         } else {
             // Re-select default
-            const defaultBtn = document.getElementById('amt-250');
+            const defaultBtn = document.getElementById('amt-100');
             if (defaultBtn) defaultBtn.classList.add('active');
-            updateBtnText(250);
+            updateBtnText(100);
         }
     });
 
