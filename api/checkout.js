@@ -64,11 +64,6 @@ export default async function handler(req, res) {
                             }
                         ],
                         payment_method_types: [
-                            'gcash',
-                            'maya',
-                            'grab_pay',
-                            'card',
-                            'dob',
                             'qrph'
                         ],
                         success_url: 'https://kape.stimmie.dev/?success=true',
