@@ -1,0 +1,10 @@
+{
+  "name": "kape-stimmie-dev",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pa-kape ka naman! — Stimmie's donation page powered by PayMongo",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  }
+}

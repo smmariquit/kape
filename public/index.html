@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kape — Pa-kape ka naman! | Stimmie</title>
+    <meta name="description" content="Libre lahat. Pa-kape ka naman. Support Stimmie's free open source tools, workshops, and talks with a cup of kape. ☕">
+    <meta property="og:title" content="Kape — Pa-kape ka naman! | Stimmie">
+    <meta property="og:description" content="Libre lahat. Pa-kape ka naman. Support Stimmie's free open source tools, workshops, and talks.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kape.stimmie.dev">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Floating particles (coffee beans) -->
+    <div class="particles" id="particles" aria-hidden="true"></div>
+
+    <!-- Hero Section -->
+    <header class="hero" id="hero">
+        <div class="hero-inner">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                indie dev · open source · libre lahat
+            </div>
+
+            <div class="hero-coffee" aria-hidden="true">
+                <svg class="coffee-cup" viewBox="0 0 200 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Steam -->
+                    <g class="steam">
+                        <path class="steam-path steam-1" d="M80 70 Q85 50 80 30 Q75 10 80 -10" stroke="var(--amber-300)" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.6"/>
+                        <path class="steam-path steam-2" d="M100 65 Q105 40 100 20 Q95 0 100 -20" stroke="var(--amber-200)" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.4"/>
+                        <path class="steam-path steam-3" d="M120 70 Q115 45 120 25 Q125 5 120 -15" stroke="var(--amber-300)" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.5"/>
+                    </g>
+                    <!-- Saucer -->
+                    <ellipse cx="100" cy="205" rx="80" ry="12" fill="var(--brown-600)" opacity="0.4"/>
+                    <!-- Cup body -->
+                    <path d="M40 90 L50 190 Q55 200 100 200 Q145 200 150 190 L160 90 Z" fill="var(--cream-100)" stroke="var(--cream-200)" stroke-width="1.5"/>
+                    <!-- Coffee surface -->
+                    <ellipse cx="100" cy="95" rx="60" ry="12" fill="var(--brown-400)"/>
+                    <ellipse cx="100" cy="93" rx="55" ry="10" fill="var(--amber-600)" opacity="0.7"/>
+                    <!-- Cup rim -->
+                    <ellipse cx="100" cy="90" rx="62" ry="13" fill="none" stroke="var(--cream-200)" stroke-width="2"/>
+                    <!-- Handle -->
+                    <path d="M160 110 Q190 115 190 145 Q190 175 160 180" stroke="var(--cream-200)" stroke-width="6" fill="none" stroke-linecap="round"/>
+                    <!-- Cup highlight -->
+                    <path d="M55 100 L60 180" stroke="white" stroke-width="2" opacity="0.15" stroke-linecap="round"/>
+                </svg>
+            </div>
+
+            <h1 class="hero-title">
+                <span class="title-top">Libre lahat.</span>
+                <span class="title-bottom">Pa-kape ka naman. <span class="coffee-emoji">☕</span></span>
+            </h1>
+
+            <p class="hero-subtitle">
+                My open source tools, workshops, and talks are always free.<br>
+                If any of it helped you — kape keeps me building the next one.
+            </p>
+
+            <div class="hero-cta">
+                <a href="#donate" class="btn btn-primary" id="hero-cta-btn">
+                    <span class="btn-icon">☕</span>
+                    Pa-kape — ₱250
+                </a>
+                <a href="#projects" class="btn btn-ghost">
+                    See what I build →
+                </a>
+            </div>
+
+            <div class="hero-scroll-hint" aria-hidden="true">
+                <div class="scroll-line"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Impact Stats -->
+    <section class="stats" id="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card" data-delay="0">
+                    <span class="stat-number" data-target="7">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Talks & Workshops</span>
+                    <span class="stat-sub">UPLB, QCU, DLSU, DEP</span>
+                </div>
+                <div class="stat-card" data-delay="100">
+                    <span class="stat-number" data-target="30">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Hackathons & Jams</span>
+                    <span class="stat-sub">Organized & competed</span>
+                </div>
+                <div class="stat-card" data-delay="200">
+                    <span class="stat-number" data-target="103">0</span>
+                    <span class="stat-label">GitHub Repos</span>
+                    <span class="stat-sub">& counting</span>
+                </div>
+                <div class="stat-card" data-delay="300">
+                    <span class="stat-number" data-target="10">0</span><span class="stat-plus">K+</span>
+                    <span class="stat-label">HearthCraft Players</span>
+                    <span class="stat-sub">6-year Minecraft community</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <span class="section-tag">Sino 'to?</span>
+                    <h2>I'm <em>Stimmie</em>.</h2>
+                    <p>
+                        Real name Simonee — a UPLB CS student, indie developer, and workshop facilitator.
+                        I build free tools that help students, give talks about data science and hackathon survival,
+                        and co-founded <a href="https://joinpizza.fun" target="_blank" rel="noopener">Pizza & Friends</a>,
+                        a not-so-serious tech community.
+                    </p>
+                    <p>
+                        I volunteer with <a href="https://dataengineering.ph/" target="_blank" rel="noopener">Data Engineering Pilipinas</a>,
+                        serve in orgs at UP, and participate in way too many hackathons.
+                        Everything I ship is free and open source. Kape keeps me going.
+                    </p>
+                    <div class="about-links">
+                        <a href="https://stimmie.dev" target="_blank" rel="noopener" class="about-link">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                            stimmie.dev
+                        </a>
+                        <a href="https://github.com/smmariquit" target="_blank" rel="noopener" class="about-link">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            smmariquit
+                        </a>
+                        <a href="https://www.linkedin.com/in/stimmie/" target="_blank" rel="noopener" class="about-link">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                            in/stimmie
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <span class="section-tag">Mga Gawa</span>
+            <h2 class="section-title">Built free. Used by many.</h2>
+            <p class="section-desc">Open source tools and projects — all libre, all from kape-fueled late nights.</p>
+
+            <div class="projects-grid">
+                <a href="https://github.com/smmariquit/gradesim" target="_blank" rel="noopener" class="project-card project-featured" id="project-gradesim">
+                    <div class="project-tag">⭐ Featured</div>
+                    <div class="project-icon">📊</div>
+                    <h3>Elbi GradeSim</h3>
+                    <p>Browser extension that helps UPLB students calculate their GWA, simulate grades, and plan their academic path.</p>
+                    <span class="project-tech">JavaScript · Chrome Extension</span>
+                </a>
+
+                <a href="https://github.com/smmariquit/room-tba" target="_blank" rel="noopener" class="project-card" id="project-roomtba">
+                    <div class="project-icon">🏫</div>
+                    <h3>Room TBA</h3>
+                    <p>Svelte web app for finding UPLB classes, rooms, schedules, with OpenStreetMap directions & offline support.</p>
+                    <span class="project-tech">Svelte · 15★</span>
+                </a>
+
+                <a href="https://github.com/smmariquit/atlas-of-my-skies" target="_blank" rel="noopener" class="project-card" id="project-atlas">
+                    <div class="project-icon">🌌</div>
+                    <h3>Atlas of My Skies</h3>
+                    <p>An astronomy diary that maps the sky above me each day — a quiet reminder that the world keeps turning.</p>
+                    <span class="project-tech">Next.js · TypeScript</span>
+                </a>
+
+                <a href="http://workshops.stimmie.dev/hackathon-guide" target="_blank" rel="noopener" class="project-card" id="project-hackathon">
+                    <div class="project-icon">🏆</div>
+                    <h3>Hackathon Guide</h3>
+                    <p>Synthesized learnings from 30+ hackathons into a practical guide for first-timers and veterans alike.</p>
+                    <span class="project-tech">Guide · Open Resource</span>
+                </a>
+
+                <a href="https://hearthcraft.stimmie.dev" target="_blank" rel="noopener" class="project-card" id="project-hearthcraft">
+                    <div class="project-icon">🏠</div>
+                    <h3>HearthCraft</h3>
+                    <p>A survival Minecraft server that ran for 6 years through the pandemic — a safe space for 10,000+ players.</p>
+                    <span class="project-tech">Community · 6 Years</span>
+                </a>
+
+                <a href="https://joinpizza.fun" target="_blank" rel="noopener" class="project-card" id="project-pizza">
+                    <div class="project-icon">🍕</div>
+                    <h3>Pizza & Friends</h3>
+                    <p>A not-so-serious tech community I co-founded. We do meetups, talks, and occasionally eat pizza.</p>
+                    <span class="project-tech">Community · Next.js</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Talks & Workshops -->
+    <section class="talks" id="talks">
+        <div class="container">
+            <span class="section-tag">Mga Kwento</span>
+            <h2 class="section-title">Talks & Workshops</h2>
+            <p class="section-desc">Free workshops and talks on data science, hackathons, AI, and project management.</p>
+
+            <div class="talks-list">
+                <a href="https://stimmie.dev/talks/dsg-codeit-day1-what-is-data-science" target="_blank" rel="noopener" class="talk-item" id="talk-1">
+                    <div class="talk-org">UPLB DSG × UPRHS</div>
+                    <h3 class="talk-title">CodeIT Workshop Day 1 — What is Data Science?</h3>
+                    <div class="talk-meta">Workshop · High school students</div>
+                </a>
+
+                <a href="https://stimmie.dev/talks/dsg-codeit-day2-storytelling-with-data" target="_blank" rel="noopener" class="talk-item" id="talk-2">
+                    <div class="talk-org">UPLB DSG × UPRHS</div>
+                    <h3 class="talk-title">CodeIT Workshop Day 2 — Storytelling with Data</h3>
+                    <div class="talk-meta">Workshop · Hands-on</div>
+                </a>
+
+                <a href="https://stimmie.dev/talks/nextstep-hacks-2025-winning-by-talking" target="_blank" rel="noopener" class="talk-item" id="talk-3">
+                    <div class="talk-org">NextStep Hacks 2025</div>
+                    <h3 class="talk-title">Winning by Talking</h3>
+                    <div class="talk-meta">Talk · Hackathon pitching</div>
+                </a>
+
+                <a href="https://stimmie.dev/talks/jpcs-qcu-logic-unlocked-ml-with-python" target="_blank" rel="noopener" class="talk-item" id="talk-4">
+                    <div class="talk-org">JPCS — QCU</div>
+                    <h3 class="talk-title">Logic Unlocked Day 1 — Machine Learning with Python</h3>
+                    <div class="talk-meta">Workshop · ML/AI</div>
+                </a>
+
+                <a href="https://stimmie.dev/talks/dep-ai-use-cases-that-actually-matter" target="_blank" rel="noopener" class="talk-item" id="talk-5">
+                    <div class="talk-org">Data Engineering Pilipinas</div>
+                    <h3 class="talk-title">AI Use Cases That Actually Matter</h3>
+                    <div class="talk-meta">Talk · AI Study Group</div>
+                </a>
+
+                <a href="https://stimmie.dev/talks/dlsu-eces-agile-edge-swift-project-workflows" target="_blank" rel="noopener" class="talk-item" id="talk-6">
+                    <div class="talk-org">DLSU ECES</div>
+                    <h3 class="talk-title">Agile Edge: Swift Project Workflows</h3>
+                    <div class="talk-meta">Talk · Project management</div>
+                </a>
+
+                <a href="https://stimmie.dev/talks/dsg-applicants-data-storytelling-canva" target="_blank" rel="noopener" class="talk-item" id="talk-7">
+                    <div class="talk-org">UPLB DSG</div>
+                    <h3 class="talk-title">Applicants' Workshop — Data Storytelling with Canva</h3>
+                    <div class="talk-meta">Workshop · Data viz</div>
+                </a>
+            </div>
+
+            <a href="https://stimmie.dev/talks" target="_blank" rel="noopener" class="talks-more">
+                View all talks on stimmie.dev →
+            </a>
+        </div>
+    </section>
+
+    <!-- Donate Section -->
+    <section class="donate" id="donate">
+        <div class="container">
+            <div class="donate-card">
+                <div class="donate-header">
+                    <span class="donate-emoji">☕</span>
+                    <h2>Pa-kape ka naman!</h2>
+                    <p>Pick an amount — or type your own. Every peso fuels the next libre tool.</p>
+                </div>
+
+                <div class="donate-amounts" id="donate-amounts">
+                    <button class="amount-btn" data-amount="100" id="amt-100">
+                        <span class="amount-value">₱100</span>
+                        <span class="amount-label">Barako</span>
+                    </button>
+                    <button class="amount-btn active" data-amount="250" id="amt-250">
+                        <span class="amount-value">₱250</span>
+                        <span class="amount-label">Isang Kape ☕</span>
+                    </button>
+                    <button class="amount-btn" data-amount="500" id="amt-500">
+                        <span class="amount-value">₱500</span>
+                        <span class="amount-label">Kape + Pandesal</span>
+                    </button>
+                    <button class="amount-btn" data-amount="1000" id="amt-1000">
+                        <span class="amount-value">₱1,000</span>
+                        <span class="amount-label">Isang Araw ng Kape</span>
+                    </button>
+                </div>
+
+                <div class="donate-custom">
+                    <label for="custom-amount" class="custom-label">Or enter a custom amount:</label>
+                    <div class="custom-input-wrap">
+                        <span class="custom-currency">₱</span>
+                        <input type="number" id="custom-amount" class="custom-input" placeholder="Any amount" min="1" step="1">
+                    </div>
+                </div>
+
+                <div class="donate-message">
+                    <label for="donate-msg" class="custom-label">Leave a message (optional):</label>
+                    <textarea id="donate-msg" class="donate-textarea" placeholder="Salamat sa GradeSim, Stimmie! 🫡" rows="2" maxlength="200"></textarea>
+                </div>
+
+                <button class="btn btn-primary btn-large" id="donate-btn">
+                    <span class="btn-icon">☕</span>
+                    <span id="donate-btn-text">Pa-kape — ₱250</span>
+                </button>
+
+                <p class="donate-footnote">
+                    Powered by <a href="https://paymongo.com" target="_blank" rel="noopener">PayMongo</a> — GCash, Maya, cards, and bank transfers accepted.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <span class="footer-logo">☕ kape.stimmie.dev</span>
+                    <p>Libre lahat. Pa-kape ka naman.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://stimmie.dev" target="_blank" rel="noopener">Portfolio</a>
+                    <a href="https://github.com/smmariquit" target="_blank" rel="noopener">GitHub</a>
+                    <a href="https://joinpizza.fun" target="_blank" rel="noopener">Pizza & Friends</a>
+                    <a href="mailto:semariquit@gmail.com">Email</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Made with ☕ and late nights by Stimmie. © 2026</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
