@@ -65,14 +65,11 @@ export default async function handler(req, res) {
                         ],
                         payment_method_types: [
                             'gcash',
+                            'maya',
                             'grab_pay',
-                            'paymaya',
                             'card',
                             'dob',
-                            'dob_ubp',
-                            'brankas_bdo',
-                            'brankas_landbank',
-                            'brankas_metrobank'
+                            'qrph'
                         ],
                         success_url: 'https://kape.stimmie.dev/?success=true',
                         cancel_url: 'https://kape.stimmie.dev/?cancelled=true'
