@@ -1,3 +1,5 @@
+// api/checkout.js
+
 // Vercel Serverless Function — creates a PayMongo Checkout Session
 // POST /api/checkout
 // Body: { amount: number (in pesos), message?: string }

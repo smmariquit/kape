@@ -1,3 +1,5 @@
+// public/index.js
+
 // ===== Floating Coffee Bean Particles =====
 function createParticles() {
     const container = document.getElementById('particles');
