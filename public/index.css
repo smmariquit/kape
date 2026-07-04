@@ -488,7 +488,7 @@ a:hover { color: var(--amber-200); }
 .project-tech {
     display: block;
     font-size: 0.75rem;
-    color: var(--text-muted);
+    color: var(--text-secondary);
     margin-top: 12px;
     font-weight: 500;
 }
