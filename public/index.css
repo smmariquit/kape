@@ -625,7 +625,7 @@ a:hover { color: var(--amber-200); }
 .amount-label {
     display: block;
     font-size: 0.7rem;
-    color: var(--text-muted);
+    color: var(--text-secondary);
     margin-top: 4px;
 }
 
