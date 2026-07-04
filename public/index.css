@@ -635,7 +635,7 @@ a:hover { color: var(--amber-200); }
 .custom-label {
     display: block;
     font-size: 0.8rem;
-    color: var(--text-muted);
+    color: var(--text-secondary);
     text-align: left;
     margin-bottom: 8px;
     font-weight: 500;
@@ -692,7 +692,7 @@ a:hover { color: var(--amber-200); }
 
 .donate-footnote {
     font-size: 0.75rem;
-    color: var(--text-muted);
+    color: var(--text-secondary);
     margin-top: 16px;
 }
 
