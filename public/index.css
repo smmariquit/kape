@@ -696,6 +696,12 @@ a:hover { color: var(--amber-200); }
     margin-top: 16px;
 }
 
+.donate-footnote a {
+    color: var(--text-accent);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
 /* ===== Footer ===== */
 .footer {
     padding: 60px 0 40px;
@@ -718,7 +724,7 @@ a:hover { color: var(--amber-200); }
 
 .footer-brand p {
     font-size: 0.85rem;
-    color: var(--text-muted);
+    color: var(--text-secondary);
     margin-top: 6px;
 }
 
@@ -739,7 +745,7 @@ a:hover { color: var(--amber-200); }
 
 .footer-bottom p {
     font-size: 0.8rem;
-    color: var(--text-muted);
+    color: var(--text-secondary);
 }
 
 /* ===== Responsive ===== */
