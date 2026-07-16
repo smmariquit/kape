@@ -200,6 +200,7 @@ a:hover { color: var(--amber-200); }
 .btn {
     display: inline-flex; align-items: center; gap: 8px;
     padding: 14px 28px;
+    min-height: 48px;
     border-radius: var(--radius-md);
     font-family: var(--font-sans);
     font-size: 1rem;
@@ -207,6 +208,11 @@ a:hover { color: var(--amber-200); }
     cursor: pointer;
     border: none;
     text-decoration: none;
+}
+
+.btn:focus-visible {
+    outline: 2px solid var(--amber-400);
+    outline-offset: 3px;
 }
 
 .btn-primary {
@@ -661,6 +667,10 @@ a:hover { color: var(--amber-200); }
 }
 
 .custom-input:focus { border-color: var(--amber-400); }
+.custom-input:focus-visible {
+    border-color: var(--amber-400);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--amber-400) 35%, transparent);
+}
 .custom-input::placeholder { color: var(--text-muted); font-weight: 400; }
 
 .donate-message { margin-bottom: 24px; }
@@ -680,6 +690,10 @@ a:hover { color: var(--amber-200); }
 }
 
 .donate-textarea:focus { border-color: var(--amber-400); }
+.donate-textarea:focus-visible {
+    border-color: var(--amber-400);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--amber-400) 35%, transparent);
+}
 .donate-textarea::placeholder { color: var(--text-muted); }
 
 .donate-footnote {
