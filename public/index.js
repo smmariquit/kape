@@ -168,7 +168,7 @@ function showToast(message, type) {
         position: fixed; top: 24px; left: 50%; transform: translateX(-50%) translateY(-20px);
         padding: 16px 28px; border-radius: 12px; font-family: var(--font-sans);
         font-size: 1rem; font-weight: 600; z-index: 9999; opacity: 0;
-        transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        transition: opacity 0.4s var(--ease-out), transform 0.4s var(--ease-out);
         background: ${type === 'success' ? '#1a3a1a' : '#1a2a3a'};
         color: ${type === 'success' ? '#4ade80' : '#60a5fa'};
         border: 1px solid ${type === 'success' ? 'rgba(74,222,128,0.2)' : 'rgba(96,165,250,0.2)'};
